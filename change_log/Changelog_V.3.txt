@@ -1,0 +1,158 @@
+///////////////////////////////////////////////
+
+Updated Date : 21 March 2020
+-------------------------------------------------
+Updates : 
+1.chaned logo link to .html to laravel blade template.
+2.Modal pop issue fixed
+3.js scripts position changed in datatables page (earlier dropdowns were not working)
+4.Some UI issues fixed in .php files
+5.js and css links positions were chanaged in footer-scripts.blade.php and head.blade.php
+6.chaned href link to .html to laravel blade template.
+
+
+Please Follow Below Guidelines.
+
+---------------------- 2. Modal pop issue fixed ---------------------------
+ 
+Miss the modal-pop code so add the missing code in "modal.blade.php" so replace the below roots these php page
+
+horizontal_dark:
+
+1. Please replace the "modal.blade.php" PHP Pages (resources/views)
+
+
+horizontal_Light:
+
+1. Please replace the "modal.blade.php" PHP Pages (resources/views)
+
+
+leftmenu_icon_dark:
+
+1. Please replace the "modal.blade.php" PHP Pages (resources/views)
+
+
+leftmenu_icon_light:
+
+1. Please replace the "modal.blade.php" PHP Pages (resources/views)
+
+
+
+---------------------- 3. js scripts position changed in datatabales page ---------------------------
+ 
+1.Please replace the "datatable.blade.php"(resources/views) in all folders(horizontal_dark/horizontal_Light/leftmenu_icon_dark/leftmenu_icon_light) check below code
+   
+   old: 
+	@section('js')
+	<script src="{{ URL::asset('assets/plugins/datatable/datatable.js') }}"></script>
+	<script src="{{ URL::asset('assets/plugins/datatable/datatable-2.js') }}"></script>
+	<script src="{{ URL::asset('assets/plugins/datatable/dataTables.bootstrap4.min.js') }}"></script>
+	<script src="{{ URL::asset('assets/plugins/datatable/dataTables.responsive.min.js') }}"></script>
+	<script src="{{ URL::asset('assets/plugins/datatable/jquery.dataTables.min.js') }}"></script>
+	@endsection
+
+changed above scripts position to
+
+
+   New: 
+	<script src="{{ URL::asset('assets/plugins/datatable/jquery.dataTables.min.js') }}">
+	</script>
+<script src="{{ URL::asset('assets/plugins/datatable/dataTables.bootstrap4.min.js') }}">
+	</script>
+<script src="{{ URL::asset('assets/plugins/datatable/datatable.js') }}">
+	</script>
+<script src="{{ URL::asset('assets/plugins/datatable/datatable-2.js') }}">
+	</script>
+<script src="{{ URL::asset('assets/plugins/datatable/dataTables.responsive.min.js') }}"></script>
+
+
+---------------------- 4. Some UI issues fixed in .php files ---------------------------
+
+1. Please replace the colors css(assets/colors/color1.css, color2.css, color3.css, color4.css, color5.css) files in all folders(horizontal_dark/horizontal_Light/leftmenu_icon_dark/leftmenu_icon_light) 
+
+2. Please replace the custom.js file (assets/js/custom.js) in all folders(horizontal_dark/horizontal_Light/leftmenu_icon_dark/leftmenu_icon_light) 
+
+3. Please replace the dark-style.css file (assets/js/css-dark/dark-style.css) in all folders(horizontal_dark/horizontal_Light/leftmenu_icon_dark/leftmenu_icon_light) 
+
+
+horizontal_dark:
+
+1. Please replace the below list PHP Pages (resources/views/layouts)
+
+     phP List:  header.blade.php, horizontal-main.blade.php, mobile-header.blade.php
+
+2. Please replace the below list PHP Pages (resources/views)
+    
+      phP List:alerts.blade.php, avatar-radius.blade.php, avatar-round.blade.php, avatarsquare.blade.php, chat.blade.php, headers.blade.php, profile.blade.php, users-list.blade.php
+
+
+horizontal_light:
+
+1. Please replace the below list PHP Pages (resources/views/layouts)
+
+     phP List:  header.blade.php, horizontal-main.blade.php, mobile-header.blade.php
+
+2. Please replace the below list PHP Pages (resources/views)
+    
+      phP List:alerts.blade.php, avatar-radius.blade.php, avatar-round.blade.php, avatarsquare.blade.php, chat.blade.php, headers.blade.php, profile.blade.php, users-list.blade.php,
+pricing.blade.php
+
+
+leftmenu_icon_dark:
+
+1. Please replace the below list PHP Pages (resources/views/layouts)
+
+     phP List:  footer-scripts.blade.php, mobile-header.blade.php, notification.blade.php
+
+2. Please replace the below list PHP Pages (resources/views)
+    
+      phP List:alerts.blade.php, avatar-radius.blade.php, avatar-round.blade.php, avatarsquare.blade.php, chat.blade.php, headers.blade.php, profile.blade.php, users-list.blade.php
+
+
+leftmenu_icon_light:
+
+1. Please replace the below list PHP Pages (resources/views/layouts)
+
+     phP List:  footer-scripts.blade.php, mobile-header.blade.php, notification.blade.php
+
+2. Please replace the below list PHP Pages (resources/views)
+    
+      phP List:alerts.blade.php, avatar-radius.blade.php, avatar-round.blade.php, avatarsquare.blade.php, chat.blade.php, headers.blade.php, profile.blade.php, users-list.blade.php,
+pricing.blade.php
+
+
+
+---------------------- 6. chaned href link to .html to laravel blade template.. ---------------------------
+
+horizontal_dark:
+
+1. Please replace the below list PHP Pages (resources/views)
+
+   phP List:  400.blade.php, 401.blade.php, 403.blade.php, 404.blade.php, 500.blade.php, 503.blade.php, lockscreen.blade.php, forgot-password.blade.php
+
+
+horizontal_Light:
+
+1. Please replace the below list PHP Pages (resources/views)
+
+    phP List:  400.blade.php, 401.blade.php, 403.blade.php, 404.blade.php, 500.blade.php, 503.blade.php, lockscreen.blade.php, forgot-password.blade.php
+
+
+leftmenu_icon_dark:
+
+1. Please replace the below list PHP Pages (resources/views)
+
+   phP List:  400.blade.php, 401.blade.php, 403.blade.php, 404.blade.php, 500.blade.php, 503.blade.php, lockscreen.blade.php, forgot-password.blade.php
+
+
+leftmenu_icon_light:
+
+1. Please replace the below list PHP Pages (resources/views)
+
+   phP List:  400.blade.php, 401.blade.php, 403.blade.php, 404.blade.php, 500.blade.php, 503.blade.php, lockscreen.blade.php, forgot-password.blade.php
+
+
+
+
+
+

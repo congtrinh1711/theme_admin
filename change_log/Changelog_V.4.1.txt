@@ -1,0 +1,43 @@
+///////////////////////////////////////////////
+
+Updated Date : 28 March 2020
+-------------------------------------------------
+
+Updates : 
+1.Some UI issues fixed 
+
+
+Please Follow Below Guidelines.
+
+---------------------- 1. Some UI issues fixed ---------------------------
+ 
+1.1 In RTL Footer Spacing issues fixed 
+	
+	horizontal_dark-rtl,horizontal_light-rtl,leftmenu_icon_dark-rtl,leftmenu_icon_light-rtl- (public/assets/css/style.css)
+
+	Please replace the "style.css" file (public/assets/css/style.css)  line no:7718 change the padding value check belwo code
+	
+	old: .footer {
+		background: #fff;
+		border-top: 1px solid #eaedf1;
+		font-size: 0.875rem;
+		padding: 1.25rem 1.25rem 1.25rem 230px;
+	}
+	
+	New: .footer {
+		background: #fff;
+		border-top: 1px solid #eaedf1;
+		font-size: 0.875rem;
+		padding: 1.25rem 230px 1.25rem 1.25rem;
+	}
+
+
+1.2 In horizontal_light-rtl folder responsive left menu issue fixed
+
+	Please replace the "footer-scripts.blade.php" file (resources/views/layouts/footer-scripts.blade.php)
+
+
+1.3 Please replace the "style.css" (public/assets/css/style.css) only for LTR folders(horizontal_dark/horizontal_light/leftmenu_icon_dark/leftmenu_icon_light)
+
+
+1.4 Please replace the "cards.blade.php" file (resources/views/cards.blade.php) in all folders

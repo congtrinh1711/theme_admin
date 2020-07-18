@@ -1,0 +1,20 @@
+Updated Date : March 5th 2020
+-------------------------------------
+Updates:
+
+1.Added js links to thier appropriate pages.
+
+2.Added css links to thier appropriate pages
+
+3.css is working in pages like 400,401 etc..
+
+-------------------------------------
+
+I have changed js and css links to thier appropriate files.
+
+previously all css links were called from head.blade.php and all js links were called from footer-script.blade.php
+
+(console error issue cleared)
+
+--------------------------------------
+

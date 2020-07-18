@@ -1,0 +1,87 @@
+///////////////////////////////////////////////
+
+Updated Date : 7 March 2020
+-------------------------------------------------
+Updates : 
+
+1. Custom, Error, Construction Page UI issue Fixed
+2. Gallery  issuse fixed
+
+
+Please Follow Below Guidelines.
+
+---------------------- 1. Custom, Error, Construction Page UI issue Fixed ---------------------------
+
+horizontal_dark:
+
+1. Please replace the below list PHP Pages (resources/views)
+
+   phP List:  400.blade.php, 401.blade.php, 403.blade.php, 404.blade.php, 500.blade.php, 503.blade.php, construction.blade.php, 
+	      register.blade.php, lockscreen.blade.php, login.blade.php, forgot-password.blade.php
+
+2. Please replace the style.css (public/assets/css/style.css) & dark-style.css(public/assets/css-dark/style.css)
+
+
+
+horizontal_Light:
+
+1. Please replace the below list PHP Pages (resources/views)
+
+   phP List:  400.blade.php, 401.blade.php, 403.blade.php, 404.blade.php, 500.blade.php, 503.blade.php, construction.blade.php, 
+	      register.blade.php, lockscreen.blade.php, login.blade.php, forgot-password.blade.php
+
+2. Please replace the style.css (public/assets/css/style.css) & dark-style.css(public/assets/css-dark/style.css)
+
+3. Please replace the main.css (public/assets/plugins/single-page/css/main.css)
+
+
+
+leftmenu_icon_dark:
+
+1. Please replace the below list PHP Pages (resources/views)
+
+   phP List:  register.blade.php, lockscreen.blade.php, login.blade.php, forgot-password.blade.php
+
+2. Please replace the style.css (public/assets/css/style.css) & dark-style.css(public/assets/css-dark/style.css)
+
+
+
+leftmenu_icon_light:
+
+1. Please replace the below list PHP Pages (resources/views)
+
+   phP List:  register.blade.php, lockscreen.blade.php, login.blade.php, forgot-password.blade.php
+
+2. Please replace the style.css (public/assets/css/style.css) & dark-style.css(public/assets/css-dark/style.css)
+
+3. Please replace the main.css (public/assets/plugins/single-page/css/main.css)
+
+
+
+
+---------------------- 2. Gallery  issuse fixed ---------------------------
+
+horizontal_dark:
+
+1. Please replace the "gallery.blade.php" PHP Pages (resources/views)
+
+
+horizontal_Light:
+
+1. Please replace the "gallery.blade.php" PHP Pages (resources/views)
+
+
+leftmenu_icon_dark:
+
+1. Please replace the "gallery.blade.php" PHP Pages (resources/views)
+
+
+leftmenu_icon_light:
+
+1. Please replace the "gallery.blade.php" PHP Pages (resources/views)
+
+
+
+
+
+
